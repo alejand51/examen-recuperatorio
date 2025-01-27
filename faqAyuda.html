@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #A9F2B6;
+            color: black;
+            padding: 5px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .faq {
+            margin-bottom: 20px;
+        }
+        .faq h3 {
+            cursor: pointer;
+            background-color: #00509e;
+            color: white;
+            padding: 10px;
+            margin: 0;
+            border: none;
+            text-align: left;
+            outline: none;
+            transition: background-color 0.3s;
+        }
+        .faq h3:hover {
+            background-color: #003f7f;
+        }
+        .faq p {
+            margin: 0;
+            padding: 10px;
+            background-color: #e3f2fd;
+            display: none;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #002855;
+            color: white;
+            margin-top: 20px;
+		}
+		.contieneimg10{
+		float:left;
+		margin:100px 150px 100px 100px;
+		<!-- text-align: center; -->
+		}
+		.contieneimg50{
+		float:left;
+		margin:100px 150px 100px 100px;
+		<!-- text-align: center; -->
+		} 
+		
+		.contieneimg11prot{
+		float:left;
+		margin:50px 350px 100px 20px;
+		<!-- text-align: center; -->
+		
+		}
+		 .profile10 {
+            background: #fff;
+            <!-- padding: 5rem; -->
+			padding: 60px;
+            margin: 1rem 0;
+			margin: 5px 100px 5px 130px;
+			padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 35px;
+            display: flex;
+            align-items: center;
+			font-family: Arial, sans-serif;
+            line-height: 1.5;
+        }
+		
+		.profile15 {
+            background: #fff;
+            <!-- padding: 5rem; -->
+			padding: 20px;
+            margin: 1rem 0;
+			margin: 5px 150px 5px 100px;
+			padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 35px;
+            display: flex;
+            align-items: center;
+			font-family: Arial, sans-serif;
+            line-height: 1.5;
+        }
+		.profileder15 {
+            background: #fff;
+            <!-- padding: 5rem; -->
+			padding: 60px;
+            margin: 1rem 0;
+			margin: 5px 150px 5px 750px;
+			padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 35px;
+            display: flex;
+            align-items: center;
+			font-family: Arial, sans-serif;
+            line-height: 1.5;
+        }
+		
+        .profile img {
+            border-radius: 50%;
+            width: 210px;
+            height: 210px;
+            margin-right: 3rem;
+        }
+		
+		 .section {
+            margin-bottom: 40px;
+        }
+        
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+			margin: 20px 520px 20px 520px;
+            <!-- margin: 20px 0; -->
+            padding: 120px;
+        }
+		.botonm{
+			display: inline-block;
+			background-color:greenyellow;
+			background-color: #9C06D2;
+			color:#F2F3F4;
+			text-decoration: none;
+			font-eight: 900;
+			font-weight: bold;
+			border-radius: 5px;
+			margin: 25px;
+			padding: 15px;
+		}
+		
+    </style>
+</head>
+<body>
+
+
+<a class="botonm" href="index.html" >Inicio</a>
+
+    <header>
+	
+        <h1>Como usar - Preguntas Frecuentes</h1>
+    </header>
+	
+	<h1 style="text-align:center";>Como Elegir a un personaje?</h1>
+	<div class="profile10">
+		<p align=justify>Científicos, Militares de alto mando, Millonarios, Extraterrestres, Rebeldes, Superhumanos, Robots.
+		La ciencia ficción incorpora elementos que no existen en el mundo real, pero que son posibles desde una perspectiva
+		científica especulativa. Esto influye en los personajes, los objetos, el espacio e incluso en la historia.
+		Personajes de los cuentos de ciencia ficción | PPT - Compartir diapositivas
+		2 de junio de 2015 — Personajes de los cuentos de ciencia ficción * PERSONAJES DE LOS CUENTOS DE CIENCIA FICCIÓN. * EL
+		CIENTÍFICO. *ALTO M...
+		
+		Diapositiva compartida
+		Ciencia ficción - Qué es, características, elementos y tipos
+		Incorpora elementos extraños o irreales. Incluye elementos que no existen en el mundo real, pero que son posibles desde
+		una perspectiva...
+		</p>
+		<br>
+							
+	</div>
+	
+    <footer>
+        <p>&copy; 2025 ABR.</p>
+    </footer>
+    <script>
+        const faqs = document.querySelectorAll('.faq h3');
+
+        faqs.forEach(faq => {
+            faq.addEventListener('click', () => {
+                const content = faq.nextElementSibling;
+                content.style.display = content.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>

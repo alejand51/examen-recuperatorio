@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>contactoasesoria</title>
+		<link rel="stylesheet" href="miestilocontact.css" />
+	</head>
+	<body>
+		<header>
+			<h1> Crear Personaje</h1> 
+		</header>
+
+<div class="container">
+    <h2>Guardar Personaje</h2>
+    <form action="mailto:tuemail@dominio.com" method="post" enctype="text/plain">
+        <label for="name">Nombre Completo:</label>
+        <input type="text" id="name" name="name" placeholder="Ingrese su nombre completo"> 
+
+        <label for="email">Correo electronico:</label>
+        <input type="email" id="email" name="email" placeholder="Ingrese su correo electronico">
+
+        <label for="phone">Telefono:</label>
+        <input type="text" id="phone" name="phone" placeholder="Ingrese su numero telefonico">
+
+        <label for="type">Tipo de Consulta:</label>
+        <select id="type" name="type" placeholder="Elija Tipo de Consulta">
+            <option value="Raza">Raza</option>
+            <option value="Laboral">Laboral</option>
+            <option value="Administrativo">Administrativo</option>
+            <option value="Familiar">Familiar</option>
+			<option value="habilidades">habilidades</option>
+			<option value="Empresarial">Empresarial</option>
+            <option value="Otro">Otro</option>
+        </select>
+        <label for="message">Detalle Consulta:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Enviar Solicitud</button>
+    </form>
+</div>
+
+
+	</body>
+</html>

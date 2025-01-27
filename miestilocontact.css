@@ -1,0 +1,95 @@
+ body {
+            font-family: Arial, sans-serif;
+          /*  background-color: #0F71A2;/*color fondo */
+			
+			background: rgb(238,174,202);
+			background: radial-gradient(circle, rgba(238,174,202,0.9490724063400576) 0%, rgba(186,217,231,1) 100%);
+
+
+
+
+
+			margin: 3;
+            padding: 3;
+        }
+
+        header {
+			
+            background-color: #186D84;  /* color encavezdo*/
+            /* color: white; */
+			color: #F2F8F8; /*color letra principal */
+			text-background: #DBE1E2;
+			font-size: 16px;
+			
+            text-align: center;
+            padding: 20px ;
+        }
+				
+        header h1 {
+            margin: 0;
+		
+        }
+
+        .container {
+            width: 30%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #D4F9E5 ;
+				
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        input, textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        select {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 12px;
+            background-color: #0359F9;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+           /* transition: background-color 0.3s ease;*/
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        .footer p {
+            margin: 0;
+        }
